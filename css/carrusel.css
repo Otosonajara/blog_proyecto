@@ -1,0 +1,40 @@
+header{
+	background-image: url("img/ban1.jpg");
+	background-size: 100% 100%;
+	animation: banner 10s infinite;
+	-webkit-text-fill-color: black;
+	-webkit-text-stroke-color: #E3EEEE;
+	-webkit-text-stroke-width: 0.85px;
+	font: 40px 'mixstitchmedium', verdana;
+	color: #BBCC20;
+	border: 2px solid #A2E7B6;
+	max-width: 920px;
+	min-height: 315px;
+	margin: auto;
+	text-align: right;
+	vertical-align:top;
+	border-radius: 0.7em 0.7em 0 0.7em;
+	box-shadow:  5px 5px 10px 3px #ffcc99,
+	             0px 0px 0px;
+}
+
+@keyframes banner{
+	0%, 28%{
+		background-image: url("img/gamer.jpg");
+		opacity: 1;
+	}
+	29%, 35%{
+		opacity: 0.5;
+	}
+	36%, 64%{
+		background-image: url("img/topten.jpg");
+		opacity: 1;	
+	}
+	65%, 70%{
+		opacity: 0.5;
+	}
+	71%, 100%{
+		background-image: url("img/juego-indies.jpg");
+		opacity: 1;
+	}
+}
